@@ -1,0 +1,845 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+		<title>Descobrindo o Segredo &#8211; Monitoramento</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Feed para Descobrindo o Segredo &raquo;" href="https://www.descobrindosegredo.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Descobrindo o Segredo &raquo;" href="https://www.descobrindosegredo.com/comments/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.descobrindosegredo.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.1"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.descobrindosegredo.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8.1' media='all' />
+<style id='wp-block-library-theme-inline-css'>
+#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}
+</style>
+<link rel='stylesheet' id='twenty-twenty-one-style-css'  href='https://www.descobrindosegredo.com/wp-content/themes/twentytwentyone/style.css?ver=1.3' media='all' />
+<link rel='stylesheet' id='twenty-twenty-one-print-style-css'  href='https://www.descobrindosegredo.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=1.3' media='print' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.11.0' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.2.3' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.2.3' media='all' />
+<style id='elementor-frontend-inline-css'>
+@font-face{font-family:eicons;src:url(https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);src:url(https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"),url(https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"),url(https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"),url(https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"),url(https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");font-weight:400;font-style:normal}
+</style>
+<link rel='stylesheet' id='elementor-post-7-css'  href='https://www.descobrindosegredo.com/wp-content/uploads/elementor/css/post-7.css?ver=1621532870' media='all' />
+<link rel='stylesheet' id='elementor-pro-css'  href='https://www.descobrindosegredo.com/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.2.2' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='https://www.descobrindosegredo.com/wp-content/uploads/elementor/css/global.css?ver=1621533271' media='all' />
+<link rel='stylesheet' id='elementor-post-78-css'  href='https://www.descobrindosegredo.com/wp-content/uploads/elementor/css/post-78.css?ver=1633913548' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=5.8.1' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.1' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.1' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css'  href='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.1' media='all' />
+<link rel="https://api.w.org/" href="https://www.descobrindosegredo.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.descobrindosegredo.com/wp-json/wp/v2/pages/78" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.descobrindosegredo.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.descobrindosegredo.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.1" />
+<link rel="canonical" href="https://www.descobrindosegredo.com/" />
+<link rel='shortlink' href='https://www.descobrindosegredo.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.descobrindosegredo.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.descobrindosegredo.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.descobrindosegredo.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.descobrindosegredo.com%2F&#038;format=xml" />
+<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /></head>
+<body class="home page-template page-template-elementor_canvas page page-id-78 wp-embed-responsive is-light-theme no-js singular elementor-default elementor-template-canvas elementor-kit-7 elementor-page elementor-page-78">
+
+			<div data-elementor-type="wp-page" data-elementor-id="78" class="elementor elementor-78" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-3b03aaf8 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="3b03aaf8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6db8bc4" data-id="6db8bc4" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6f602a25 blink_me elementor-widget elementor-widget-heading" data-id="6f602a25" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><b>ACESSE AS MENSAGENS, FOTOS, ÁUDIOS E LOCALIZAÇÃO EM TEMPO REAL DE QUALQUER APARELHO ANDROID E IOS COM NOSSO APLICATIVO!</b></h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-574de43d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="574de43d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6ec01f82" data-id="6ec01f82" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-41bee916 elementor-widget elementor-widget-image" data-id="41bee916" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img src="https://www.descobrindosegredo.com/wp-content/uploads/elementor/thumbs/cropped-LOGO-TRANSPARENTE-pbp7sjf4oek1n0uyduz74s9c8b6az9eoo7rxcqe692.png" title="cropped-LOGO-TRANSPARENTE.png" alt="cropped-LOGO-TRANSPARENTE.png" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-376fcc9b elementor-widget__width-initial elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="376fcc9b" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/whL9jsSMnY4&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-208ea6cc assuntos elementor-section-height-full elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="208ea6cc" data-element_type="section" id="assuntos" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8fefb9f" data-id="8fefb9f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-52592fb9 elementor-align-center blob elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="52592fb9" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://go.perfectpay.com.br/PPU38CKDTCL?&#038;utm_campaign=TicTAc" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fas fa-heart-broken"></i>			</span>
+						<span class="elementor-button-text">QUERO MONITORAR AGORA!</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-eccdb76 elementor-widget elementor-widget-menu-anchor" data-id="eccdb76" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="conheca" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4531e95d elementor-widget elementor-widget-heading" data-id="4531e95d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">PARA QUEM É INDICADO?</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-70866d1c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="70866d1c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-972d7c6" data-id="972d7c6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1edbdea5 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="1edbdea5" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="750" height="750" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/WIKI-TRAICAO-1.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/WIKI-TRAICAO-1.png 750w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/WIKI-TRAICAO-1-300x300.png 300w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/WIKI-TRAICAO-1-150x150.png 150w" sizes="(max-width: 750px) 100vw, 750px" style="width:100%;height:100%;max-width:750px;" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">TRAIÇÃO</h3><p class="elementor-image-box-description">Você anda desconfiando que o seu amor anda te traindo?</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ec95336 elementor-widget-divider--view-line_icon elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="ec95336" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<i aria-hidden="true" class="fas fa-heart-broken"></i></div>
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2916a810" data-id="2916a810" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6b2c98fa elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="6b2c98fa" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="750" height="750" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/sabe-da-traicao.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/sabe-da-traicao.png 750w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/sabe-da-traicao-300x300.png 300w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/sabe-da-traicao-150x150.png 150w" sizes="(max-width: 750px) 100vw, 750px" style="width:100%;height:100%;max-width:750px;" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">PROVAS DE TRAIÇÃO</h3><p class="elementor-image-box-description">Ideal para você que sabe que está sendo traído, mas não tem provas.</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d968812 elementor-widget-divider--view-line_icon elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="d968812" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<i aria-hidden="true" class="fas fa-heart-broken"></i></div>
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-9904b15 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9904b15" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-32729600" data-id="32729600" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3a71c3d8 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="3a71c3d8" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="750" height="750" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/filhos.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/filhos.png 750w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/filhos-300x300.png 300w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/filhos-150x150.png 150w" sizes="(max-width: 750px) 100vw, 750px" style="width:100%;height:100%;max-width:750px;" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">MONITORE SEUS FILHOS</h3><p class="elementor-image-box-description">Fique de olho com quem o seu filho(a) anda conversando no WhatsAPP</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-257d0dd0 elementor-widget-divider--view-line_icon elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="257d0dd0" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<i aria-hidden="true" class="fas fa-heart-broken"></i></div>
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5cd65ddd" data-id="5cd65ddd" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-55eab57 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="55eab57" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="750" height="750" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/CEL.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/CEL.png 750w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/CEL-300x300.png 300w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/CEL-150x150.png 150w" sizes="(max-width: 750px) 100vw, 750px" style="width:100%;height:100%;max-width:750px;" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">CADÊ O SEU CELULAR?</h3><p class="elementor-image-box-description">Para você que sofre com seu parceiro que esconde o celular sempre que você pede</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a7ea18c elementor-widget-divider--view-line_icon elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="a7ea18c" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<i aria-hidden="true" class="fas fa-heart-broken"></i></div>
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-3c901827 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3c901827" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;waves&quot;,&quot;shape_divider_top_negative&quot;:&quot;yes&quot;}">
+					<div class="elementor-shape elementor-shape-top" data-negative="true">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
+	c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
+	c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"/>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-52eab135" data-id="52eab135" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-73c60442 elementor-widget elementor-widget-heading" data-id="73c60442" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">COMO FUNCIONA?</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-137aff07 elementor-widget elementor-widget-text-editor" data-id="137aff07" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><strong>Descobrindo o Segredo</strong> é um aplicativo de monitoramento e um passo a passo para você que suspeita que o seu amor está te traindo, ou para você que já sabe que está sendo traído(a) e não tem provas, também serve para monitorar o celular dos seus filhos. Você aprenderá a clonar o Whats APP em celulares Android e IOS, te possibilitando ver mensagens, escutar áudio, ver localização em tempo real, ter acesso a galeria de fotos, ver teclas digitadas, acesso a contatos adicionados recentemente, e diversas outras ações.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-4068d058 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="4068d058" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper">
+				<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/BANNER-1-1-768x768.png" alt="BANNER-1-1.png" /></figure></div>			</div>
+					</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5fbe3e74 elementor-align-center blob elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="5fbe3e74" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://go.perfectpay.com.br/PPU38CKDTCL?&#038;utm_campaign=TicTAc" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fas fa-heart-broken"></i>			</span>
+						<span class="elementor-button-text">QUERO SABER MAIS!</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-bad81a6 elementor-widget elementor-widget-image" data-id="bad81a6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="750" height="119" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/pagamentos-1.png" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/pagamentos-1.png 768w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/pagamentos-1-300x48.png 300w" sizes="(max-width: 750px) 100vw, 750px" style="width:100%;height:15.89%;max-width:768px;" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-3ef239b assuntos elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3ef239b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1b7951d1" data-id="1b7951d1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b5cddda elementor-widget elementor-widget-heading" data-id="b5cddda" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">com o aplicativo você poderá:</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-2ce8748c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2ce8748c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-79fa2e33" data-id="79fa2e33" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-700b2e25 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="700b2e25" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="300" height="300" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/whats-300x300.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/whats-300x300.png 300w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/whats-150x150.png 150w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/whats.png 750w" sizes="(max-width: 300px) 100vw, 300px" style="width:100%;height:100%;max-width:750px;" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">WHATS APP</h3><p class="elementor-image-box-description">Ver mensagensm recebidas e mensagens enviadas.</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7d8c124a elementor-widget-divider--view-line_icon elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="7d8c124a" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<i aria-hidden="true" class="fas fa-heart-broken"></i></div>
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5ce970a3" data-id="5ce970a3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-31e387a elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="31e387a" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="300" height="300" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/1040241-300x300.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/1040241-300x300.png 300w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/1040241-150x150.png 150w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/1040241.png 512w" sizes="(max-width: 300px) 100vw, 300px" style="width:100%;height:100%;max-width:512px;" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">GALERIA DE FOTOS</h3><p class="elementor-image-box-description">Ter acesso a galeria de fotos do aparelho.</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6a0d0632 elementor-widget-divider--view-line_icon elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="6a0d0632" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<i aria-hidden="true" class="fas fa-heart-broken"></i></div>
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-45c064 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="45c064" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-62ab1d87" data-id="62ab1d87" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1b0be5ec elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="1b0be5ec" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="300" height="300" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/sim-300x300.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/sim-300x300.png 300w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/sim-150x150.png 150w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/sim.png 512w" sizes="(max-width: 300px) 100vw, 300px" style="width:100%;height:100%;max-width:512px;" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">ÁUDIOS RECEBIDOS</h3><p class="elementor-image-box-description">Escutar áudios recebidos e enviados.</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7b1ea905 elementor-widget-divider--view-line_icon elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="7b1ea905" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<i aria-hidden="true" class="fas fa-heart-broken"></i></div>
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3f9e642a" data-id="3f9e642a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-19f45b4e elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="19f45b4e" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="300" height="300" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/insta-300x300.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/insta-300x300.png 300w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/insta-150x150.png 150w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/insta.png 512w" sizes="(max-width: 300px) 100vw, 300px" style="width:100%;height:100%;max-width:512px;" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">CONVERSAS DO INSTAGRAM</h3><p class="elementor-image-box-description">Ver mensagens do direct do Instagram.</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7af6e5fc elementor-widget-divider--view-line_icon elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="7af6e5fc" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<i aria-hidden="true" class="fas fa-heart-broken"></i></div>
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-65ed50d8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="65ed50d8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5b6339a7" data-id="5b6339a7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1c62bfb9 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="1c62bfb9" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="300" height="272" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/local-1-300x272.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/local-1-300x272.png 300w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/local-1.png 594w" sizes="(max-width: 300px) 100vw, 300px" style="width:100%;height:90.57%;max-width:594px;" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">LOCALIZAÇÃO</h3><p class="elementor-image-box-description">Descubra a localização do aparelho em tempo real.</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-58815719 elementor-widget-divider--view-line_icon elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="58815719" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<i aria-hidden="true" class="fas fa-heart-broken"></i></div>
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-739c6ffb" data-id="739c6ffb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-69b77b00 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="69b77b00" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="300" height="300" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/agenda-300x300.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/agenda-300x300.png 300w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/agenda-150x150.png 150w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/agenda.png 564w" sizes="(max-width: 300px) 100vw, 300px" style="width:100%;height:100%;max-width:564px;" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">CONTATOS</h3><p class="elementor-image-box-description">Tenha acesso a lista de contatos da agenda.</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3f1327bf elementor-widget-divider--view-line_icon elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="3f1327bf" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<i aria-hidden="true" class="fas fa-heart-broken"></i></div>
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2e4d3a92 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2e4d3a92" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;waves&quot;,&quot;shape_divider_top_negative&quot;:&quot;yes&quot;,&quot;shape_divider_bottom&quot;:&quot;waves&quot;,&quot;shape_divider_bottom_negative&quot;:&quot;yes&quot;}">
+					<div class="elementor-shape elementor-shape-top" data-negative="true">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
+	c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
+	c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"/>
+</svg>		</div>
+				<div class="elementor-shape elementor-shape-bottom" data-negative="true">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
+	c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
+	c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"/>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4de7e2ec" data-id="4de7e2ec" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6de68f7f elementor-widget elementor-widget-heading" data-id="6de68f7f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">DEPOIMENTOS</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3e00d960 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="3e00d960" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper">
+				<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://www.descobrindosegredo.com/wp-content/uploads/elementor/thumbs/Testemunho-2-pbp7xrey229i3v0z8834bojenjf77x0jtworrl4qby.jpeg" alt="Testemunho-2.jpeg" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://www.descobrindosegredo.com/wp-content/uploads/elementor/thumbs/Testemunho1-pbp7y7e7a8vdl8drmwzs02i8r38furrzk3s0xah14g.jpeg" alt="Testemunho1.jpeg" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://www.descobrindosegredo.com/wp-content/uploads/elementor/thumbs/Testemunho3-pbp7yio9k9atgjxdt1vatznrvpouf50rlnluom0ale.jpeg" alt="Testemunho3.jpeg" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://www.descobrindosegredo.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2021-07-27-at-18.15.10-pbp7yp94w3jtptntqmpotg001esex0qvyk691jqk3y.jpeg" alt="WhatsApp-Image-2021-07-27-at-18.15.10.jpeg" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://www.descobrindosegredo.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2021-07-27-at-18.15.10-1-pbp7yvu07xstz3e9o7k2swc873vzewh0bgqnehgswe.jpeg" alt="WhatsApp-Image-2021-07-27-at-18.15.10-1.jpeg" /></figure></div>			</div>
+												<div class="swiper-pagination"></div>
+													<div class="elementor-swiper-button elementor-swiper-button-prev">
+						<i class="eicon-chevron-left" aria-hidden="true"></i>
+						<span class="elementor-screen-only">Anterior</span>
+					</div>
+					<div class="elementor-swiper-button elementor-swiper-button-next">
+						<i class="eicon-chevron-right" aria-hidden="true"></i>
+						<span class="elementor-screen-only">Próximo</span>
+					</div>
+									</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c80fb61 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c80fb61" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;wave-brush&quot;}">
+					<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7	c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3	c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6	c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1	c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8	c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1	z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1	c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z"/>
+	<path class="elementor-shape-fill" d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z"/>
+	<path class="elementor-shape-fill" d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z"/>
+	<path class="elementor-shape-fill" d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z"/>
+	<path class="elementor-shape-fill" d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z"/>
+	<path class="elementor-shape-fill" d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z"/>
+	<path class="elementor-shape-fill" d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z"/>
+	<path class="elementor-shape-fill" d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z"/>
+	<path class="elementor-shape-fill" d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z"/>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2b1a15cb" data-id="2b1a15cb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-35278ad7 elementor-widget elementor-widget-heading" data-id="35278ad7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">TENHA ACESSO:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-372f093d elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="372f093d" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper">
+				<div class="swiper-slide"><a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="372f093d" data-elementor-lightbox-title="Sem-Titulo-2.png" href="https://go.perfectpay.com.br/PPU38CKDTCL"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/Sem-Titulo-2-768x437.png" alt="Sem-Titulo-2.png" /></figure></a></div>			</div>
+					</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-26d8f80 elementor-align-center blob elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="26d8f80" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://go.perfectpay.com.br/PPU38CKDTCL?&#038;utm_campaign=TicTAc" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fas fa-heart"></i>			</span>
+						<span class="elementor-button-text">COMPRAR AGORA</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-24480fcb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="24480fcb" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-632c1a6c" data-id="632c1a6c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3aeb3796 elementor-widget elementor-widget-heading" data-id="3aeb3796" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">O Aplicativo Descobrindo o Segredo já foi assunto em vários meios de comunicação e emissoras:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4bcbbdf elementor-widget elementor-widget-image" data-id="4bcbbdf" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img src="https://www.descobrindosegredo.com/wp-content/uploads/elementor/thumbs/green_black_friday_instagram_post-pbp7z4adu69hg53qxvcvzg8mjsu3aylqqiztitx8u8.jpg" title="green_black_friday_instagram_post.jpg" alt="green_black_friday_instagram_post.jpg" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-5fdd9457 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="5fdd9457" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4517c57a" data-id="4517c57a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-5d9819e8 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="5d9819e8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-42cd014a" data-id="42cd014a" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-278e8c00 elementor-widget elementor-widget-image" data-id="278e8c00" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img src="https://www.descobrindosegredo.com/wp-content/uploads/elementor/thumbs/garantia-7-dia-3-pbp7z664njwizr7hfgtrdmd9jk355qutcxmnd48frk.png" title="garantia-7-dia-3.png" alt="garantia-7-dia-3.png" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-766eb3e7" data-id="766eb3e7" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-74c70679 elementor-widget elementor-widget-heading" data-id="74c70679" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">7 DIAS DE GARANTIA PARA VOCÊ!</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1e44cb2a elementor-widget elementor-widget-text-editor" data-id="1e44cb2a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>É isso mesmo que você leu, se no período de 7 dias, você estiver insatisfeita com o curso, fale com nosso suporte que devolveremos 100% do seu dinheiro!</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-457e3575 pay elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="457e3575" data-element_type="section" id="pay" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-16cc10e8" data-id="16cc10e8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-384566fb elementor-widget-divider--view-line_icon elementor-hidden-phone elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="384566fb" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<i aria-hidden="true" class="fas fa-heart"></i></div>
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a5738de elementor-widget elementor-widget-heading" data-id="a5738de" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">DESCONTO DISPONÍVEL POR APENAS:</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6630d492 elementor-countdown--label-block elementor-widget elementor-widget-countdown" data-id="6630d492" data-element_type="widget" data-widget_type="countdown.default">
+				<div class="elementor-widget-container">
+					<div data-evergreen-interval="1800" class="elementor-countdown-wrapper" data-date="">
+			<div class="elementor-countdown-item"><span class="elementor-countdown-digits elementor-countdown-hours"></span> <span class="elementor-countdown-label">Horas</span></div><div class="elementor-countdown-item"><span class="elementor-countdown-digits elementor-countdown-minutes"></span> <span class="elementor-countdown-label">Minutos</span></div><div class="elementor-countdown-item"><span class="elementor-countdown-digits elementor-countdown-seconds"></span> <span class="elementor-countdown-label">Segundos</span></div>		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-5c91546c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5c91546c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-447cf6f3" data-id="447cf6f3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-656f3989 elementor-widget elementor-widget-heading" data-id="656f3989" data-element_type="widget" id="compra" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default"><a href="https://go.perfectpay.com.br/PPU38CKDTCL"><strike>DE R$298,00</strike></a></h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-358979a elementor-widget elementor-widget-heading" data-id="358979a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">POR APENAS 12X DE</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4bc4dcac elementor-widget elementor-widget-heading" data-id="4bc4dcac" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default"><a href="https://go.perfectpay.com.br/PPU38CKDTCL">R$ 9,74</a></h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-15a9b083 elementor-widget elementor-widget-heading" data-id="15a9b083" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">OU <b class="valorAvista">R$97,00 </b>À VISTA</h3>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-5433812c elementor-widget elementor-widget-spacer" data-id="5433812c" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-511b449f elementor-align-center blob elementor-widget elementor-widget-button" data-id="511b449f" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://go.perfectpay.com.br/PPU38CKDTCL" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fas fa-heart-broken"></i>			</span>
+						<span class="elementor-button-text"> COMPRAR AGORA</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-53ff5155 elementor-hidden-phone elementor-widget elementor-widget-image" data-id="53ff5155" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="750" height="119" src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/pagamentos-1.png" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/pagamentos-1.png 768w, https://www.descobrindosegredo.com/wp-content/uploads/2021/08/pagamentos-1-300x48.png 300w" sizes="(max-width: 750px) 100vw, 750px" style="width:100%;height:15.89%;max-width:768px;" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-36864459 elementor-arrows-yes elementor-pagination-type-bullets elementor-review--has-separator elementor--star-style-star_fontawesome elementor-widget elementor-widget-reviews" data-id="36864459" data-element_type="widget" data-settings="{&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="reviews.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-swiper">
+			<div class="elementor-main-swiper swiper-container">
+				<div class="swiper-wrapper">
+											<div class="swiper-slide">
+									<div class="elementor-testimonial elementor-repeater-item-905c61f">
+							<div class="elementor-testimonial__header">
+											<div class="elementor-testimonial__image">
+							<img src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/50218076_1972756526093085_5739960153126469632_n-1.jpg" alt="Henrique Santos">
+						</div>
+										<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Henrique Santos</span><span class="elementor-testimonial__title">@hsantos212</span></cite>					<div class="elementor-testimonial__icon elementor-icon elementor-icon-twitter"><i aria-hidden="true" class="fab fa-twitter"></i><span class="elementor-screen-only">Read More</span></div>				</div>
+										<div class="elementor-testimonial__content">
+					<div class="elementor-testimonial__text">
+						Ferramenta muito boa, pena que descobri algo que não queria, mas ta valendo bola pra frente...					</div>
+				</div>
+					</div>
+								</div>
+											<div class="swiper-slide">
+									<div class="elementor-testimonial elementor-repeater-item-ee36cb0">
+							<div class="elementor-testimonial__header">
+											<div class="elementor-testimonial__image">
+							<img src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/13891983_10157223105935398_8983651666063668773_n.jpg" alt="Cistina W. Silva">
+						</div>
+										<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Cistina W. Silva</span><span class="elementor-testimonial__title">@cristinawsilva2019</span></cite>					<div class="elementor-testimonial__icon elementor-icon elementor-icon-twitter"><i aria-hidden="true" class="fab fa-twitter"></i><span class="elementor-screen-only">Read More</span></div>				</div>
+										<div class="elementor-testimonial__content">
+					<div class="elementor-testimonial__text">
+						Descobri uma traição em familia graças a essa ferramenta, me livrou de  uma pessoa a qual eu nem reconheço mais					</div>
+				</div>
+					</div>
+								</div>
+											<div class="swiper-slide">
+									<div class="elementor-testimonial elementor-repeater-item-40a5ca7">
+							<div class="elementor-testimonial__header">
+											<div class="elementor-testimonial__image">
+							<img src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/133066278_10157493272441400_363104688028978900_n-1.jpg" alt="Marcus M.">
+						</div>
+										<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Marcus M.</span><span class="elementor-testimonial__title">@marcusmatiassergey</span></cite>					<div class="elementor-testimonial__icon elementor-icon elementor-icon-twitter"><i aria-hidden="true" class="fab fa-twitter"></i><span class="elementor-screen-only">Read More</span></div>				</div>
+										<div class="elementor-testimonial__content">
+					<div class="elementor-testimonial__text">
+						Eu já sabia que tinha sido traído, mas faltava provas para dar um basta e entrar com o divórcio, essa ferramenta é exelente para quem quer provas!					</div>
+				</div>
+					</div>
+								</div>
+											<div class="swiper-slide">
+									<div class="elementor-testimonial elementor-repeater-item-8c8fdbe">
+							<div class="elementor-testimonial__header">
+											<div class="elementor-testimonial__image">
+							<img src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/109726382_645135172762675_1013039060329271186_n.jpg" alt="Luana Sampaio">
+						</div>
+										<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Luana Sampaio</span><span class="elementor-testimonial__title">@lusampaiogrils</span></cite>					<div class="elementor-testimonial__icon elementor-icon elementor-icon-twitter"><i aria-hidden="true" class="fab fa-twitter"></i><span class="elementor-screen-only">Read More</span></div>				</div>
+										<div class="elementor-testimonial__content">
+					<div class="elementor-testimonial__text">
+						Odio me define, meu namorado estava me traindo com minha prima... realmente funciona, mas é muito triste quando pega algo.					</div>
+				</div>
+					</div>
+								</div>
+											<div class="swiper-slide">
+									<div class="elementor-testimonial elementor-repeater-item-2bed696">
+							<div class="elementor-testimonial__header">
+											<div class="elementor-testimonial__image">
+							<img src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/15726235_320655498328211_8261429531663576038_n.jpg" alt="Jef Silva">
+						</div>
+										<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Jef Silva</span><span class="elementor-testimonial__title">@jefsilvasoldador</span></cite>					<div class="elementor-testimonial__icon elementor-icon elementor-icon-twitter"><i aria-hidden="true" class="fab fa-twitter"></i><span class="elementor-screen-only">Read More</span></div>				</div>
+										<div class="elementor-testimonial__content">
+					<div class="elementor-testimonial__text">
+						Instalei e deu tudo certo, ate agora n peguei nada, mas to de olho					</div>
+				</div>
+					</div>
+								</div>
+											<div class="swiper-slide">
+									<div class="elementor-testimonial elementor-repeater-item-c9f41ff">
+							<div class="elementor-testimonial__header">
+											<div class="elementor-testimonial__image">
+							<img src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/95132839_3227554403973685_5250489118680416256_n-1.jpg" alt="Mirian Vilela">
+						</div>
+										<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Mirian Vilela</span><span class="elementor-testimonial__title">@mmvilelam</span></cite>					<div class="elementor-testimonial__icon elementor-icon elementor-icon-twitter"><i aria-hidden="true" class="fab fa-twitter"></i><span class="elementor-screen-only">Read More</span></div>				</div>
+										<div class="elementor-testimonial__content">
+					<div class="elementor-testimonial__text">
+						éé eu quebrei a cara fazendo isso, descobri coisa que não queria nem pensa, massss é a vida					</div>
+				</div>
+					</div>
+								</div>
+											<div class="swiper-slide">
+									<div class="elementor-testimonial elementor-repeater-item-abfc852">
+							<div class="elementor-testimonial__header">
+											<div class="elementor-testimonial__image">
+							<img src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/150881520_10224350129683502_5077421504601232398_n.jpg" alt="Rafael Santiago">
+						</div>
+										<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Rafael Santiago</span><span class="elementor-testimonial__title">@sansanrafael</span></cite>					<div class="elementor-testimonial__icon elementor-icon elementor-icon-twitter"><i aria-hidden="true" class="fab fa-twitter"></i><span class="elementor-screen-only">Read More</span></div>				</div>
+										<div class="elementor-testimonial__content">
+					<div class="elementor-testimonial__text">
+						Funcionou, graças a Deus nã peguei nada, foi um alivio					</div>
+				</div>
+					</div>
+								</div>
+											<div class="swiper-slide">
+									<div class="elementor-testimonial elementor-repeater-item-ed617bb">
+							<div class="elementor-testimonial__header">
+											<div class="elementor-testimonial__image">
+							<img src="https://www.descobrindosegredo.com/wp-content/uploads/2021/08/90301379_10163056227145034_2132546743881957376_n-1.jpg" alt="Maria Val">
+						</div>
+										<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Maria Val</span><span class="elementor-testimonial__title">@valmariasantos</span></cite>					<div class="elementor-testimonial__icon elementor-icon elementor-icon-twitter"><i aria-hidden="true" class="fab fa-twitter"></i><span class="elementor-screen-only">Read More</span></div>				</div>
+										<div class="elementor-testimonial__content">
+					<div class="elementor-testimonial__text">
+						Incrível essa ferramenta, consigo monitorar meu filho de 12 anos tranquilamente com ela, recomendo o www.descobrindoosegredo.com					</div>
+				</div>
+					</div>
+								</div>
+									</div>
+															<div class="swiper-pagination"></div>
+																<div class="elementor-swiper-button elementor-swiper-button-prev">
+							<i class="eicon-chevron-left" aria-hidden="true"></i>
+							<span class="elementor-screen-only">Previous</span>
+						</div>
+						<div class="elementor-swiper-button elementor-swiper-button-next">
+							<i class="eicon-chevron-right" aria-hidden="true"></i>
+							<span class="elementor-screen-only">Next</span>
+						</div>
+												</div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-996d4ee elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="996d4ee" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-de91889" data-id="de91889" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4befd17a elementor-widget elementor-widget-heading" data-id="4befd17a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">PERGUNTAS FREQUENTES!</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d59fa8 elementor-widget elementor-widget-toggle" data-id="d59fa8" data-element_type="widget" data-widget_type="toggle.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-toggle" role="tablist">
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1401" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-1401" aria-expanded="false">
+												<a href="" class="elementor-toggle-title">QUAIS AS FORMAS DE PAGAMENTO?</a>
+					</div>
+					<div id="elementor-tab-content-1401" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1401"><p>Você pode comprar no cartão, em até 5x. Ou então realizar o pagamento á vista no boleto ou via PIX.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1402" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-1402" aria-expanded="false">
+												<a href="" class="elementor-toggle-title">COMO RECEBO O APLICATIVO?</a>
+					</div>
+					<div id="elementor-tab-content-1402" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-1402"><p>Após a compra você será direcionado para a área de menbros e também será enviado para seu e-mail o acesso. Muito fácil de acessar!</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1403" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-1403" aria-expanded="false">
+												<a href="" class="elementor-toggle-title">EU MESMO(A) CONSIGO FAZER?</a>
+					</div>
+					<div id="elementor-tab-content-1403" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-1403"><p>Sim, basta seguir o passo a passo, é bem fácil o procedimento, e qualquer dúvida basta acionar o suporte.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1404" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-1404" aria-expanded="false">
+												<a href="" class="elementor-toggle-title">POR QUANTO TEMPO TEREI ACESSO AO APLICATIVO?</a>
+					</div>
+					<div id="elementor-tab-content-1404" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-1404"><p>Após realizar a compra você terá acesso para sempre, poderá acessar quando e onde quiser.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1405" class="elementor-tab-title" data-tab="5" role="tab" aria-controls="elementor-tab-content-1405" aria-expanded="false">
+												<a href="" class="elementor-toggle-title">FUNCIONA EM TODOS OS APARELHOS?</a>
+					</div>
+					<div id="elementor-tab-content-1405" class="elementor-tab-content elementor-clearfix" data-tab="5" role="tabpanel" aria-labelledby="elementor-tab-title-1405"><p>Sim, tem o método para Celulares Android e para Celulares IOS, tudo passo a passo.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1406" class="elementor-tab-title" data-tab="6" role="tab" aria-controls="elementor-tab-content-1406" aria-expanded="false">
+												<a href="" class="elementor-toggle-title">CONSIGO ACESSAR AS FOTOS DO APARELHO?</a>
+					</div>
+					<div id="elementor-tab-content-1406" class="elementor-tab-content elementor-clearfix" data-tab="6" role="tabpanel" aria-labelledby="elementor-tab-title-1406"><p>Sim, você consegue acessar as fotos do aparelho, conversas do Whats APP, Menssenger, Instagram e escutar áudios, além de descobrir a localização do aparelho e lista de contatos.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1407" class="elementor-tab-title" data-tab="7" role="tab" aria-controls="elementor-tab-content-1407" aria-expanded="false">
+												<a href="" class="elementor-toggle-title">COMO POSSO TIRAR MINHAS DÚVIDAS? </a>
+					</div>
+					<div id="elementor-tab-content-1407" class="elementor-tab-content elementor-clearfix" data-tab="7" role="tabpanel" aria-labelledby="elementor-tab-title-1407">Diretamente pelo Whats App. Quando realizar sua matricula, terá acesso ao nosso whats app de suporte na área de alunas e nossa equipe estará pronta para te ajudar. </div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1408" class="elementor-tab-title" data-tab="8" role="tab" aria-controls="elementor-tab-content-1408" aria-expanded="false">
+												<a href="" class="elementor-toggle-title">TEM PERIGO DA PESSOA DESCOBRIR?</a>
+					</div>
+					<div id="elementor-tab-content-1408" class="elementor-tab-content elementor-clearfix" data-tab="8" role="tabpanel" aria-labelledby="elementor-tab-title-1408"><p>Não, o procedimento é seguro, a pessoa que será monitorada não saberá de nada.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1409" class="elementor-tab-title" data-tab="9" role="tab" aria-controls="elementor-tab-content-1409" aria-expanded="false">
+												<a href="" class="elementor-toggle-title">O SITE É SEGURO?</a>
+					</div>
+					<div id="elementor-tab-content-1409" class="elementor-tab-content elementor-clearfix" data-tab="9" role="tabpanel" aria-labelledby="elementor-tab-title-1409"><p>Com certeza! O pagamento é feito através de uma plataforma de cursos online 100% segura chamada Perfect Pay. Todos os seus dados são protegidos de acordo com os melhores padrões de segurança do mundo. 	</p></div>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-996787e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="996787e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5759505" data-id="5759505" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-15e8337 elementor-widget elementor-widget-heading" data-id="15e8337" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Todos os direitos direitos reservados Descobrindo o Segredo 2021
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c847085 elementor-widget elementor-widget-heading" data-id="c847085" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Contato@descobrindoosegredo.com
+</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		<script>document.body.classList.remove("no-js");</script>	<script>
+	if ( -1 !== navigator.userAgent.indexOf( 'MSIE' ) || -1 !== navigator.appVersion.indexOf( 'Trident/' ) ) {
+		document.body.classList.add( 'is-IE' );
+	}
+	</script>
+	<script id='twenty-twenty-one-ie11-polyfills-js-after'>
+( Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach ) || document.write( '<script src="https://www.descobrindosegredo.com/wp-content/themes/twentytwentyone/assets/js/polyfills.js?ver=1.3"></scr' + 'ipt>' );
+</script>
+<script src='https://www.descobrindosegredo.com/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?ver=1.3' id='twenty-twenty-one-responsive-embeds-script-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-includes/js/wp-embed.min.js?ver=5.8.1' id='wp-embed-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.2.2' id='elementor-pro-webpack-runtime-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.2.3' id='elementor-webpack-runtime-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.2.3' id='elementor-frontend-modules-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.2.2' id='elementor-sticky-js'></script>
+<script id='elementor-pro-frontend-js-before'>
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.descobrindosegredo.com\/wp-admin\/admin-ajax.php","nonce":"b6078a0851","urls":{"assets":"https:\/\/www.descobrindosegredo.com\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.descobrindosegredo.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src='https://www.descobrindosegredo.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.2.2' id='elementor-pro-frontend-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6' id='swiper-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.2.3' id='share-link-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1' id='elementor-dialog-js'></script>
+<script id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1365,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1620,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"direction":"min","is_enabled":false}}},"version":"3.2.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"landing-pages":true,"form-submissions":true},"urls":{"assets":"https:\/\/www.descobrindosegredo.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":78,"title":"Descobrindo%20o%20Segredo%20%E2%80%93%20Monitoramento","excerpt":"","featuredImage":false}};
+</script>
+<script src='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.2.3' id='elementor-frontend-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.2.2' id='pro-preloaded-elements-handlers-js'></script>
+<script src='https://www.descobrindosegredo.com/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.2.3' id='preloaded-modules-js'></script>
+	<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",(function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())}),!1);
+	</script>
+		</body>
+</html>
+
+<!-- Page generated by Hostoo Cache 2.0.1 on 2021-10-16 22:29:32 -->
